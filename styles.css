@@ -125,10 +125,37 @@ main h1 {
   filter: brightness(50%);
 }
 
-.share-container {
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 15px;
+  left: 5%;
+}
+
+.picture-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  height: 50px;
+  overflow-y: hidden;
+
+}
+
+.picture-info p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.picture-info h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.share-container {
   background-color: white;
   border-radius: 50%;
   height: 50px;
@@ -141,3 +168,4 @@ main h1 {
 .share-container img {
   height: 20px;
 }
+
