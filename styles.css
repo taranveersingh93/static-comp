@@ -35,3 +35,41 @@ nav {
 .triangle {
   height: 20px;
 }
+
+.lower-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 43%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav p {
+  color: white;
+  opacity: 0.5;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.shares p {
+  opacity: 1;
+}
+
+.nav-logo {
+  height: 75px;
+}
+
+.nav-icon {
+  height: 30px;
+}
